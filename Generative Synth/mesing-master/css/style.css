@@ -1,0 +1,43 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+[class*='col-'] {
+  float: left;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  margin: 2px;
+  text-align: center;
+}
+
+.grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.textinput,
+.midinoteinput {
+    width: 100%;
+}
+
+.playing {
+    background-color: #FF6200;
+}
+
+a, a:hover, a:visited {
+  color: black;
+}
+
+h2 {
+  margin-bottom: -15px;
+}
+
+subtitle {
+  font-size: 80%;
+  margin-bottom: 20px;
+}
+
+.ui-menu-item {
+  background: white;
+}

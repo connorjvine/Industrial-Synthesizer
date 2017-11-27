@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>meSing.js</title>
+    <h2>meSing.js</h2>
+    <br>
+    <subtitle>A JavaScript singing synthesis library by <a href="http://usdivad.com/" target="_blank">David Su</a></subtitle>
+    <br><br><br>
+</head>
+<body>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/jquery-ui.min.css"/>
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css"/>
+    <script src="js/lib/jquery-1.11.3.min.js"></script>
+    <script src="js/lib/jquery-ui.min.js"></script>
+
+    <!--<script src="js/lib/mespeak/mespeak.js"></script>-->
+    <script src="js/lib/mespeak/mespeak.full.js"></script>
+    <script src="js/lib/vocoder_jergason.js"></script>
+    <script src="js/lib/timbre.js"></script>
+    <script src="js/src/mesing.js"></script>
+    <script src="js/src/index.js"></script>
+
+    <button id="startBtn" disabled>Start</button>
+    <button id="stopBtn" disabled>Stop</button>
+    <button id="setVoicesBtn">Set Voices</button>
+    <br>
+    <div id="voicesStatus">voices not yet set</div>
+    <br><br>
+
+    <div class="grid" id="msDisplay">
+    </div>
+    <br><br>
+    <strong>Input format:</strong>
+    <br>
+    lyric syllable (e.g. "love")
+    <br>
+    midi note (e.g. 60)
+    <br><br>
+    <strong>Directions:</strong>
+    <br>
+    Input lyrics and MIDI notes -> Click "Set Voices" -> Press "Start" -> Enjoy!
+    <br><br>
+    <br>
+    <subtitle>Rhyme suggestions provided by the <a href="http://rhymebrain.com/api.html" target="_blank">RhymeBrain API</a></subtitle>
+    <br><br>
+    <subtitle><a href="polyphony.html">meSing.js polyphony demo</a></subtitle>
+</body>
+</html>
